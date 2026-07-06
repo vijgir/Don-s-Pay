@@ -31,8 +31,8 @@ Create a MySQL database named `user_transactions_db`. Use the following credenti
 Alternatively, update the database configuration in `src/main/resources/application.properties`:
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/user_transactions_db
-spring.datasource.username=Donspay
-spring.datasource.password=donspay@123
+spring.datasource.username=
+spring.datasource.password=
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 ```
